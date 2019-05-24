@@ -1,4 +1,7 @@
-﻿
+﻿/*
+    Written by Colin Gao at 24th/5/2019  
+    These have a MIT Lisence.That means you can use and  modify the code at all,in the condition that you specify the refferences in your project. 
+ */
 using Colin.CollectionRef;
 using System.Collections;
 using System.Reflection;
@@ -7,8 +10,7 @@ using UnityEngine;
 namespace Colin
 {
     /// <summary>
-    /// 编辑器程序
-    /// 在编辑模式执行协程Coroutine
+    /// Coroutines For Unity Editor
     /// </summary>
     public static class CEditorCoroutine
     {
@@ -43,7 +45,7 @@ namespace Colin
                 }
             }
         }
-
+        
         public static void StopAllCoroutine()
         {
             EditorApplication.update -= OnUpdate;
